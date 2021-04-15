@@ -1,6 +1,6 @@
 FROM golang:1.14
 
-WORKDIR /go/src/app
+WORKDIR /home/raramuri/Desktop/learn/github-ci
 COPY . .
 
 RUN go get -d -v ./...
